@@ -149,7 +149,30 @@
 - 手机端管理界面
 
 ## 访问方式
-- 本地测试：`python3 -m http.server 8080`
-- 大屏端：http://localhost:8080/index.html
-- 管理端：http://localhost:8080/admin.html
+
+### 本地测试
+```bash
+python3 -m http.server 8080
+```
+
+本地访问链接：
+- **大屏端**：http://localhost:8080/index.html
+- **管理端**：http://localhost:8080/admin.html
 - **手机学生端**：http://localhost:8080/mobile.html
+
+### GitHub Pages 部署
+部署后访问链接：
+- **GitHub Pages**：https://fwei19921-dotcom.github.io/classpet-pro1.0/
+- **大屏端**：https://fwei19921-dotcom.github.io/classpet-pro1.0/index.html
+- **管理端**：https://fwei19921-dotcom.github.io/classpet-pro1.0/admin.html
+- **手机端**：https://fwei19921-dotcom.github.io/classpet-pro1.0/mobile.html
+
+### GitHub Pages 配置步骤
+1. 访问 GitHub 仓库：https://github.com/fwei19921-dotcom/classpet-pro1.0
+2. 点击 Settings → Pages
+3. 配置：
+   - Source: Deploy from a branch
+   - Branch: main
+   - Folder: / (root)
+4. 点击 Save
+5. 等待几分钟部署完成
